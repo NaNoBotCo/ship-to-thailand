@@ -1,0 +1,15 @@
+The Whole House, by Sea — what is in this folder, and under what terms.
+
+CODE — tools/
+    SPDX-License-Identifier: MIT — see LICENSE-CODE.
+
+PAGE TEXT, THE NET DRAWING, SHARE CARD — docs/, README.txt
+    SPDX-License-Identifier: CC-BY-4.0 — see LICENSE. Credit line: "Nan · hongdam.net · CC BY 4.0".
+
+SEND2THAI — its name, prices and service descriptions are Send2Thai's, quoted from send2thai.com
+    (read 2026-09-27). The licences above do not cover them.
+
+PLACES — data/net.json names places listed on Mot Dang (motdang.net); names are the businesses'.
+
+FONTS — docs/assets/fonts/
+    Prompt and Sarabun, SIL Open Font License 1.1 — OFL-prompt.txt, OFL-sarabun.txt.

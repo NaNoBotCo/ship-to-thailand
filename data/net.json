@@ -1,0 +1,74 @@
+{
+  "_note": "The Chiang Mai end of the page, and Mot Dang net 'ship' (tools/net_to_motdang.py writes it into mot-dang/data/curated/nets.json). Each jewel is a Mot Dang record; th/en say why it is in the net, from the record only. hrefs.json maps id -> motdang.net path, read from mot-dang/docs 2026-09-27.",
+  "strands": [
+    {
+      "key": "sea",
+      "th": "ขนของข้ามทะเล",
+      "en": "Freight by sea",
+      "roman": "khon khong kham thale",
+      "jewels": [
+        {"id": "cm-ovt-3be536fc-6177-4988-801b-acd8be74d54f", "name": "Terrestrial", "th": "ชื่อร้านบอกเองว่าส่งออกทางเรือไปอเมริกา · goterrestrial.com", "en": "Its own name says sea export to America · goterrestrial.com"},
+        {"id": "cm-ovt-5a5c7578-8c51-48fd-a900-cbca51de0038", "name": "ETS Shipping Office", "th": "สำนักงานขนส่งสินค้า หนองแก๋ว หางดง · etscnx.com", "en": "Freight office, Nong Khwai, Hang Dong · etscnx.com"},
+        {"id": "cm-ovt-cebc1129-b2fa-40b7-9e95-e2c3089825f4", "name": "Vanat Shipping Chiang Mai", "th": "ขนส่งสินค้า ขุนคง หางดง · vanatshipping.com", "en": "Freight, Khun Khong, Hang Dong · vanatshipping.com"},
+        {"id": "cm-ovt-0d32d807-227f-465b-8d83-17bd039ade57", "name": "SM Logistics and Shipping", "th": "ขนส่งสินค้า สารภี · smlogistics.com", "en": "Freight, Saraphi · smlogistics.com"},
+        {"id": "cm-ovt-86894ab9-6e42-4101-b5ef-2179f7851241", "name": "Siri Logistics", "th": "ขนส่งสินค้า หนองแก๋ว หางดง · sirilogistics.com", "en": "Freight, Nong Khwai, Hang Dong · sirilogistics.com"},
+        {"id": "cm-ovt-32408128-3cd5-4991-aaf2-9a89335fe2dc", "name": "Pioneer Cargo Services", "th": "ตัวแทนคาร์โก้ ถนนหอด (สุเทพ) · pioneercargo.co.th", "en": "Cargo agent, Hord Road (Suthep) · pioneercargo.co.th"},
+        {"id": "cm-osm-way-275286703", "name": "Siam First Express Cargo", "th": "คาร์โก้ ช้างเผือก · siamfirst.co.th", "en": "Cargo, Chang Phueak · siamfirst.co.th"},
+        {"id": "cm-osm-node-4732114730", "name": "Shipping Cargo Service", "th": "ในพาวิลเลียน ไนท์บาซาร์ ถนนลอยเคราะห์", "en": "Inside Pavilion Night Bazaar, Loi Kroh Road"},
+        {"id": "cm-ovt-e5cf49a6-f377-44fd-9766-21daa5928629", "name": "DB Schenker CNX", "th": "สำนักงานขนส่งระหว่างประเทศ แม่เหียะ ถนนวงแหวนรอบ 2", "en": "International freight office, Mae Hia, 2nd Ring Road"},
+        {"id": "cm-curated-ceva", "name": "CEVA", "th": "ป้าย CEVA Logistics อ่านจากถนน ในรอบขี่ GoPro ของแนน 24 ก.ย. 2569", "en": "CEVA Logistics sign, read from the road on NaN's GoPro ride, 24 Sep 2026"},
+        {"id": "cm-curated-k-line-logistics", "name": "K LINE LOGISTICS", "th": "ป้ายอ่านจากถนน ในรอบขี่ GoPro ของแนน 23 ก.ย. 2569", "en": "Sign read from the road on NaN's GoPro ride, 23 Sep 2026"},
+        {"id": "cm-ovt-f757e8ef-66e8-4267-93d8-83c12c2fcb03", "name": "Inter Express Logistics", "th": "ขนส่งสินค้า หนองจ๊อม สันทราย · iel.co.th", "en": "Freight, Nong Chom, San Sai · iel.co.th"},
+        {"id": "cm-ovt-fafc7f19-77c9-4b29-ba1f-3226cfdfe06c", "name": "Linfox Transport Hub", "th": "ศูนย์ขนส่ง ซุปเปอร์ไฮเวย์เชียงใหม่–ลำปาง สารภี", "en": "Transport hub on the Chiang Mai–Lampang Superhighway, Saraphi"}
+      ]
+    },
+    {
+      "key": "air",
+      "th": "ทางอากาศ",
+      "en": "By air",
+      "roman": "thang akat",
+      "jewels": [
+        {"id": "cm-ovt-240949c1-52cd-4ed6-92f3-d25a16bfa456", "name": "Velocity Cargo", "th": "คาร์โก้ที่ท่าอากาศยานเชียงใหม่ · thaicargo.com", "en": "Cargo at Chiang Mai Airport · thaicargo.com"},
+        {"id": "cm-ovt-b92f54af-17cd-43a0-9926-b4faacdc32ae", "name": "Northern International Cargo", "th": "คาร์โก้ระหว่างประเทศ ที่ท่าอากาศยานเชียงใหม่", "en": "International cargo at Chiang Mai Airport"},
+        {"id": "cm-ovt-700b6842-9dba-4fcf-af2a-3b663a7243bb", "name": "FedEx World Service Center", "th": "จุดส่งพัสดุ FedEx หนองป่าครั่ง", "en": "FedEx drop-off, Nong Pa Khrang"}
+      ]
+    },
+    {
+      "key": "customs",
+      "th": "ศุลกากร",
+      "en": "Customs",
+      "roman": "sunlakakon",
+      "jewels": [
+        {"id": "cm-ovt-b217836b-a791-4088-b58e-8a158604907b", "name": "Customs Region 3", "th": "สำนักงานศุลกากรภาคที่ 3 · bureau3.customs.go.th", "en": "The Customs Department's regional office for the north · bureau3.customs.go.th"},
+        {"id": "cm-ovt-f724ce69-3d08-4d99-ad40-8e5f05ac3416", "name": "Chiang Mai Airport Customs House", "th": "ด่านศุลกากรท่าอากาศยานเชียงใหม่", "en": "The customs house at Chiang Mai Airport"}
+      ]
+    },
+    {
+      "key": "road",
+      "th": "รถขนของในภาคเหนือ",
+      "en": "Trucks in the north",
+      "roman": "rot khon khong",
+      "jewels": [
+        {"id": "cm-ovt-4001e0c6-2ab3-4350-82e8-cdee2604521a", "name": "Nim See Seng Transport", "th": "ขนส่งทางรถ สันกำแพง · nimtransport.com", "en": "Trucking, San Kamphaeng · nimtransport.com"},
+        {"id": "cm-ovt-4ab05a01-ba1b-453c-91b1-a1e6b3751f07", "name": "Dee Logistics", "th": "ขนส่ง ซอยโชตนา 22 ป่าตัน", "en": "Transport, Chotana Soi 22, Pa Tan"},
+        {"id": "cm-ovt-a94b7250-e3d3-4b9b-ab57-fa420112a647", "name": "N.U.T Logistics", "th": "นัทขนส่ง ขุนคง หางดง", "en": "Transport, Khun Khong, Hang Dong"},
+        {"id": "cm-ovt-9d60fec9-061f-4119-a4ed-68bb07b4768b", "name": "Sri Khonsong", "th": "ขนส่ง เจริญเมือง ซอย 4 วัดเกต", "en": "Transport, Charoen Mueang Soi 4, Wat Ket"},
+        {"id": "cm-ovt-acfe3312-9910-44b7-9078-30ecd75b7e48", "name": "Vpack Chiang Mai", "th": "ขนส่งสินค้า บ้านแหวน หางดง", "en": "Freight, Ban Waen, Hang Dong"}
+      ]
+    },
+    {
+      "key": "land",
+      "th": "เมื่อของมาถึง",
+      "en": "When it lands",
+      "roman": "muea khong ma thueng",
+      "jewels": [
+        {"id": "cm-ovt-4179b999-a80d-4bf8-8e08-b38cc8673c4b", "name": "Warehouse for rent", "th": "โกดังให้เช่า ป่าบง สารภี", "en": "Warehouse for rent, Pa Bong, Saraphi"},
+        {"id": "cm-ovt-9c4f89a0-b576-4fb0-8ce2-928580acd660", "name": "NT Warehouse", "th": "สำนักงานและโกดังให้เช่า ท่าศาลา", "en": "Offices and warehouse space for rent, Tha Sala"},
+        {"id": "cm-osm-node-13852246901", "name": "FukuFuku", "th": "ของมือสองจากญี่ปุ่น สันผีเสื้อ — ของที่ไม่ได้ขนมา หาได้ที่นี่ · fkimport.com", "en": "Japanese second-hand goods, San Phi Suea, for what you left behind · fkimport.com"},
+        {"id": "cm-ovt-297164da-91d2-4096-aaa7-81912f3042a8", "name": "JBD furniture warehouse", "th": "โกดังเฟอร์นิเจอร์ ช้างเผือก", "en": "Furniture warehouse, Chang Phueak"},
+        {"id": "cm-ovt-5905b564-11b1-46ac-9ad3-23a1bd184a7c", "name": "Sirinun Antique Warehouse", "th": "โกดังของเก่าและเฟอร์นิเจอร์ ขุนคง หางดง · srnshop.com", "en": "Antiques and furniture, Khun Khong, Hang Dong · srnshop.com"},
+        {"id": "cm-curated-chiangmaivisadesk", "name": "Chiang Mai Visa Desk", "th": "วีซ่าสำหรับคนที่ย้ายมาอยู่ — ธุรกิจพี่น้องของมดแดง", "en": "Visas for people moving here, a sibling business of Mot Dang"}
+      ]
+    }
+  ]
+}

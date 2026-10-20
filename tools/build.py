@@ -172,7 +172,10 @@ def page(lang: str) -> str:
         home = {"en": "index.html" if lang == "en" else "../index.html",
                 "th": "th/index.html" if lang == "en" else "index.html"}
     canon = CANON + ("" if lang == "en" else "th/")
-    card = CANON + "card.jpg"
+    # the Pages copy serves its own cards (English and Thai); the Mot Dang copy keeps its one
+    card = CANON + "card.jpg" if os.environ.get("SITE_URL") else PAGES + ("card.jpg" if lang == "en" else "card-th.jpg")
+    card_alt = ("Card: The whole house, by sea, a network of ports from Chiang Mai to Los Angeles" if lang == "en"
+                else "บัตรแชร์: ย้ายบ้านข้ามทะเล เครือข่ายจุดส่งของจากเชียงใหม่ถึงลอสแอนเจลิส")
     title = f'{t["title"]} · Send2Thai · Mot Dang'
 
     rows = "".join(
@@ -226,9 +229,11 @@ def page(lang: str) -> str:
 <meta property="og:image" content="{card}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{card_alt}">
 <meta property="og:locale" content="{'en_US' if lang == 'en' else 'th_TH'}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{card}">
+<meta name="twitter:image:alt" content="{card_alt}">
 <meta name="theme-color" content="#0b1d30">
 <link rel="icon" href="{pre}assets/icon.svg" type="image/svg+xml">
 <style>{font_css(pre)}{CSS}</style>
